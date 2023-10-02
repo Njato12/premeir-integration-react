@@ -11,6 +11,7 @@ export default function Index() {
     return (
         <>
             <Navbar />
+
             <Routes>
                 <Route path="/"
                     element={<Home />} />
